@@ -1,0 +1,201 @@
+date,dj_name,event_type,event_name,venue,city,country,latitude,longitude,genre,attendance,ticket_price
+2024-07-04,Carl Cox,Festival,Festival featuring Carl Cox,United Center,Chicago,USA,41.8807,-87.6742,Techno,39544,199
+2023-04-23,Carl Cox,Festival,Festival featuring Carl Cox,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Techno,29700,56
+2023-02-08,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Printworks,London,UK,51.4985,-0.0429,Techno,52255,385
+2023-05-17,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Techno,24053,317
+2024-05-21,Carl Cox,Festival,Festival featuring Carl Cox,DC10,Ibiza,Spain,38.8816,1.3921,Techno,29230,131
+2024-02-17,Carl Cox,Concert,Concert featuring Carl Cox,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Techno,32978,165
+2024-04-30,Carl Cox,Festival,Festival featuring Carl Cox,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Techno,67121,350
+2022-10-16,Carl Cox,Concert,Concert featuring Carl Cox,Pacha,Ibiza,Spain,38.9185,1.4434,Techno,29963,299
+2023-08-07,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Techno,16609,319
+2023-10-27,Carl Cox,Festival,Festival featuring Carl Cox,Output,New York,USA,40.7213,-73.9577,Techno,4522,80
+2022-06-16,Carl Cox,Festival,Festival featuring Carl Cox,Output,New York,USA,40.7213,-73.9577,Techno,65407,293
+2022-09-08,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Boom,Boom,Belgium,51.0926,4.3717,Techno,63848,282
+2022-11-03,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Techno,51239,137
+2023-07-13,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Techno,43518,294
+2022-09-09,Carl Cox,Festival,Festival featuring Carl Cox,Bayfront Park,Miami,USA,25.7801,-80.1826,Techno,67807,192
+2022-02-12,Amelie Lens,Club Gig,Club Gig featuring Amelie Lens,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Techno,43208,94
+2024-06-01,Amelie Lens,Concert,Concert featuring Amelie Lens,Boom,Boom,Belgium,51.0926,4.3717,Techno,62941,72
+2023-08-28,Amelie Lens,Club Gig,Club Gig featuring Amelie Lens,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Techno,34701,127
+2024-02-05,Amelie Lens,Concert,Concert featuring Amelie Lens,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Techno,4049,73
+2023-03-18,Amelie Lens,Festival,Festival featuring Amelie Lens,United Center,Chicago,USA,41.8807,-87.6742,Techno,34958,238
+2024-10-28,Amelie Lens,Concert,Concert featuring Amelie Lens,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Techno,33648,358
+2023-04-14,Amelie Lens,Club Gig,Club Gig featuring Amelie Lens,Hart Plaza,Detroit,USA,42.3296,-83.0458,Techno,65131,181
+2024-10-19,Amelie Lens,Festival,Festival featuring Amelie Lens,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Techno,66940,324
+2023-08-24,Amelie Lens,Concert,Concert featuring Amelie Lens,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Techno,42447,81
+2023-10-09,Amelie Lens,Festival,Festival featuring Amelie Lens,Printworks,London,UK,51.4985,-0.0429,Techno,47112,122
+2022-01-28,Amelie Lens,Concert,Concert featuring Amelie Lens,Wembley Arena,London,UK,51.557,-0.2797,Techno,12916,97
+2022-04-22,Amelie Lens,Festival,Festival featuring Amelie Lens,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Techno,20199,269
+2022-10-10,Charlotte de Witte,Club Gig,Club Gig featuring Charlotte de Witte,United Center,Chicago,USA,41.8807,-87.6742,Techno,34817,139
+2024-12-28,Charlotte de Witte,Festival,Festival featuring Charlotte de Witte,Empire Polo Club,Indio,USA,33.6803,-116.2377,Techno,45895,154
+2023-07-10,Charlotte de Witte,Concert,Concert featuring Charlotte de Witte,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Techno,34134,173
+2024-03-19,Charlotte de Witte,Concert,Concert featuring Charlotte de Witte,Output,New York,USA,40.7213,-73.9577,Techno,45331,129
+2023-08-19,Charlotte de Witte,Festival,Festival featuring Charlotte de Witte,Printworks,London,UK,51.4985,-0.0429,Techno,11434,110
+2024-07-20,Charlotte de Witte,Club Gig,Club Gig featuring Charlotte de Witte,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Techno,32109,240
+2022-12-12,Charlotte de Witte,Concert,Concert featuring Charlotte de Witte,Wembley Arena,London,UK,51.557,-0.2797,Techno,47667,315
+2024-07-11,Charlotte de Witte,Concert,Concert featuring Charlotte de Witte,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Techno,42339,220
+2022-05-25,Charlotte de Witte,Club Gig,Club Gig featuring Charlotte de Witte,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Techno,67574,391
+2024-02-11,Charlotte de Witte,Club Gig,Club Gig featuring Charlotte de Witte,Empire Polo Club,Indio,USA,33.6803,-116.2377,Techno,65665,142
+2023-10-23,Nina Kraviz,Festival,Festival featuring Nina Kraviz,Boom,Boom,Belgium,51.0926,4.3717,Techno,57064,176
+2024-05-24,Nina Kraviz,Festival,Festival featuring Nina Kraviz,Boom,Boom,Belgium,51.0926,4.3717,Techno,12742,353
+2023-09-05,Nina Kraviz,Concert,Concert featuring Nina Kraviz,Wembley Arena,London,UK,51.557,-0.2797,Techno,44840,335
+2024-10-24,Nina Kraviz,Concert,Concert featuring Nina Kraviz,Wembley Arena,London,UK,51.557,-0.2797,Techno,20580,392
+2023-06-19,Nina Kraviz,Festival,Festival featuring Nina Kraviz,Bayfront Park,Miami,USA,25.7801,-80.1826,Techno,53512,302
+2022-05-27,Nina Kraviz,Club Gig,Club Gig featuring Nina Kraviz,Empire Polo Club,Indio,USA,33.6803,-116.2377,Techno,42018,219
+2022-04-09,Nina Kraviz,Festival,Festival featuring Nina Kraviz,Printworks,London,UK,51.4985,-0.0429,Techno,52301,201
+2023-06-27,Nina Kraviz,Club Gig,Club Gig featuring Nina Kraviz,Wembley Arena,London,UK,51.557,-0.2797,Techno,23665,170
+2024-04-04,David Guetta,Club Gig,Club Gig featuring David Guetta,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,EDM,36394,160
+2022-12-05,David Guetta,Festival,Festival featuring David Guetta,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,EDM,53787,198
+2022-11-02,David Guetta,Festival,Festival featuring David Guetta,Maimarkthalle,Mannheim,Germany,49.4707,8.514,EDM,6971,229
+2024-05-02,David Guetta,Festival,Festival featuring David Guetta,Wembley Arena,London,UK,51.557,-0.2797,EDM,37492,195
+2024-08-10,David Guetta,Club Gig,Club Gig featuring David Guetta,Exchange LA,Los Angeles,USA,34.0486,-118.2551,EDM,25288,54
+2022-04-10,David Guetta,Concert,Concert featuring David Guetta,Berghain,Berlin,Germany,52.5111,13.4416,EDM,10850,75
+2023-08-02,David Guetta,Club Gig,Club Gig featuring David Guetta,Pacha,Ibiza,Spain,38.9185,1.4434,EDM,23797,142
+2023-04-01,Adam Beyer,Club Gig,Club Gig featuring Adam Beyer,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Techno,28964,187
+2024-12-13,Adam Beyer,Festival,Festival featuring Adam Beyer,DC10,Ibiza,Spain,38.8816,1.3921,Techno,5897,289
+2022-11-05,Adam Beyer,Club Gig,Club Gig featuring Adam Beyer,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Techno,66872,314
+2024-10-14,Adam Beyer,Club Gig,Club Gig featuring Adam Beyer,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Techno,38120,202
+2023-11-14,Adam Beyer,Festival,Festival featuring Adam Beyer,Output,New York,USA,40.7213,-73.9577,Techno,59281,305
+2022-04-18,Armin van Buuren,Concert,Concert featuring Armin van Buuren,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Trance,34143,261
+2022-04-30,Armin van Buuren,Festival,Festival featuring Armin van Buuren,Boom,Boom,Belgium,51.0926,4.3717,Trance,50061,152
+2024-05-01,Armin van Buuren,Concert,Concert featuring Armin van Buuren,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Trance,60482,262
+2022-04-08,Armin van Buuren,Club Gig,Club Gig featuring Armin van Buuren,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Trance,69265,370
+2023-09-24,Armin van Buuren,Club Gig,Club Gig featuring Armin van Buuren,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Trance,20032,194
+2022-09-02,Deadmau5,Club Gig,Club Gig featuring Deadmau5,DC10,Ibiza,Spain,38.8816,1.3921,Progressive House,52092,385
+2023-04-25,Deadmau5,Club Gig,Club Gig featuring Deadmau5,Printworks,London,UK,51.4985,-0.0429,Progressive House,66464,298
+2024-08-02,Deadmau5,Club Gig,Club Gig featuring Deadmau5,Printworks,London,UK,51.4985,-0.0429,Progressive House,41915,355
+2023-12-22,Deadmau5,Concert,Concert featuring Deadmau5,Hart Plaza,Detroit,USA,42.3296,-83.0458,Progressive House,47875,56
+2024-04-15,Solomun,Festival,Festival featuring Solomun,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Deep House,35860,395
+2023-12-07,Solomun,Club Gig,Club Gig featuring Solomun,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Deep House,65068,384
+2024-03-20,Solomun,Club Gig,Club Gig featuring Solomun,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,Deep House,19065,146
+2023-02-02,Solomun,Club Gig,Club Gig featuring Solomun,Empire Polo Club,Indio,USA,33.6803,-116.2377,Deep House,56365,76
+2024-06-04,Richie Hawtin,Concert,Concert featuring Richie Hawtin,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Techno,39162,373
+2023-08-28,Richie Hawtin,Festival,Festival featuring Richie Hawtin,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Techno,33976,77
+2024-02-16,Richie Hawtin,Club Gig,Club Gig featuring Richie Hawtin,Wembley Arena,London,UK,51.557,-0.2797,Techno,19162,325
+2023-12-03,Richie Hawtin,Club Gig,Club Gig featuring Richie Hawtin,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Techno,10962,137
+2023-11-25,Peggy Gou,Festival,Festival featuring Peggy Gou,United Center,Chicago,USA,41.8807,-87.6742,House,31190,99
+2022-05-06,Peggy Gou,Festival,Festival featuring Peggy Gou,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,House,42505,146
+2022-05-10,Peggy Gou,Club Gig,Club Gig featuring Peggy Gou,Wembley Arena,London,UK,51.557,-0.2797,House,69454,399
+2024-07-13,The Martinez Brothers,Festival,Festival featuring The Martinez Brothers,Empire Polo Club,Indio,USA,33.6803,-116.2377,House,39539,380
+2024-07-03,The Martinez Brothers,Concert,Concert featuring The Martinez Brothers,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,House,16188,207
+2022-06-28,The Martinez Brothers,Concert,Concert featuring The Martinez Brothers,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,House,40241,385
+2024-05-24,Dixon,Concert,Concert featuring Dixon,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Deep House,40193,279
+2023-07-28,Dixon,Club Gig,Club Gig featuring Dixon,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Deep House,17235,339
+2023-08-09,Dixon,Festival,Festival featuring Dixon,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Deep House,27356,245
+2024-03-25,Black Coffee,Club Gig,Club Gig featuring Black Coffee,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Afro House,1180,192
+2023-10-01,Black Coffee,Festival,Festival featuring Black Coffee,United Center,Chicago,USA,41.8807,-87.6742,Afro House,39650,58
+2024-03-11,Black Coffee,Festival,Festival featuring Black Coffee,Boom,Boom,Belgium,51.0926,4.3717,Afro House,43945,385
+2024-08-25,Skrillex,Club Gig,Club Gig featuring Skrillex,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Dubstep,18111,186
+2023-03-26,Skrillex,Concert,Concert featuring Skrillex,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Dubstep,69895,381
+2024-10-06,Skrillex,Festival,Festival featuring Skrillex,Berghain,Berlin,Germany,52.5111,13.4416,Dubstep,30502,281
+2022-12-27,Eric Prydz,Club Gig,Club Gig featuring Eric Prydz,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Progressive House,28172,338
+2022-05-24,Eric Prydz,Concert,Concert featuring Eric Prydz,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,Progressive House,52148,363
+2024-04-29,Eric Prydz,Concert,Concert featuring Eric Prydz,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Progressive House,65601,82
+2024-01-15,Jamie Jones,Festival,Festival featuring Jamie Jones,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,Tech House,63224,75
+2024-02-16,Jamie Jones,Club Gig,Club Gig featuring Jamie Jones,Empire Polo Club,Indio,USA,33.6803,-116.2377,Tech House,21964,280
+2023-05-03,Marco Carola,Concert,Concert featuring Marco Carola,Bayfront Park,Miami,USA,25.7801,-80.1826,Techno,52250,288
+2023-10-22,Marco Carola,Concert,Concert featuring Marco Carola,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,Techno,68847,169
+2022-10-17,Disclosure,Festival,Festival featuring Disclosure,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,House,15480,372
+2023-01-06,Disclosure,Club Gig,Club Gig featuring Disclosure,Empire Polo Club,Indio,USA,33.6803,-116.2377,House,32724,241
+2023-08-11,Paul Kalkbrenner,Festival,Festival featuring Paul Kalkbrenner,Boom,Boom,Belgium,51.0926,4.3717,Techno,42291,204
+2022-01-10,Paul Kalkbrenner,Concert,Concert featuring Paul Kalkbrenner,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Techno,30088,173
+2023-05-25,Reinier Zonneveld,Club Gig,Club Gig featuring Reinier Zonneveld,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,Techno,1326,236
+2024-07-11,Reinier Zonneveld,Festival,Festival featuring Reinier Zonneveld,Bayfront Park,Miami,USA,25.7801,-80.1826,Techno,59576,181
+2024-08-16,Boris Brejcha,Concert,Concert featuring Boris Brejcha,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Minimal Techno,28871,292
+2022-09-18,Boris Brejcha,Concert,Concert featuring Boris Brejcha,Berghain,Berlin,Germany,52.5111,13.4416,Minimal Techno,51481,91
+2023-06-25,Netsky,Festival,Festival featuring Netsky,United Center,Chicago,USA,41.8807,-87.6742,Drum & Bass,57553,203
+2023-08-18,Netsky,Concert,Concert featuring Netsky,Bayfront Park,Miami,USA,25.7801,-80.1826,Drum & Bass,19418,289
+2022-11-29,Flume,Festival,Festival featuring Flume,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Future Bass,58122,71
+2023-05-28,Flume,Concert,Concert featuring Flume,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Future Bass,36872,95
+2022-05-28,Bicep,Concert,Concert featuring Bicep,Boom,Boom,Belgium,51.0926,4.3717,Electronic,63305,310
+2023-12-23,Bicep,Concert,Concert featuring Bicep,Wembley Arena,London,UK,51.557,-0.2797,Electronic,38378,276
+2023-10-29,Tiësto,Concert,Concert featuring Tiësto,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,EDM,39719,165
+2024-09-15,Tiësto,Festival,Festival featuring Tiësto,Berghain,Berlin,Germany,52.5111,13.4416,EDM,39524,214
+2023-12-02,Four Tet,Concert,Concert featuring Four Tet,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Electronic,61549,221
+2024-08-29,Four Tet,Festival,Festival featuring Four Tet,United Center,Chicago,USA,41.8807,-87.6742,Electronic,16726,148
+2023-06-21,CamelPhat,Club Gig,Club Gig featuring CamelPhat,DC10,Ibiza,Spain,38.8816,1.3921,Tech House,32675,148
+2022-08-15,CamelPhat,Festival,Festival featuring CamelPhat,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Tech House,29766,110
+2024-12-11,Bonobo,Festival,Festival featuring Bonobo,Pacha,Ibiza,Spain,38.9185,1.4434,Electronica,67512,54
+2024-03-27,Bonobo,Festival,Festival featuring Bonobo,Output,New York,USA,40.7213,-73.9577,Electronica,60008,344
+2024-12-17,RÜFÜS DU SOL,Club Gig,Club Gig featuring RÜFÜS DU SOL,Empire Polo Club,Indio,USA,33.6803,-116.2377,Live Electronic,20755,300
+2024-04-18,RÜFÜS DU SOL,Concert,Concert featuring RÜFÜS DU SOL,Bayfront Park,Miami,USA,25.7801,-80.1826,Live Electronic,58085,129
+2024-12-26,Jamie xx,Concert,Concert featuring Jamie xx,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Electronic,64019,280
+2022-09-22,Jamie xx,Concert,Concert featuring Jamie xx,Output,New York,USA,40.7213,-73.9577,Electronic,52155,306
+2022-01-04,Fisher,Concert,Concert featuring Fisher,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,House,36557,50
+2023-03-10,Fisher,Club Gig,Club Gig featuring Fisher,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,House,18927,148
+2022-09-29,Sasha & John Digweed,Concert,Concert featuring Sasha & John Digweed,Printworks,London,UK,51.4985,-0.0429,Progressive House,68179,253
+2023-03-13,Sasha & John Digweed,Concert,Concert featuring Sasha & John Digweed,Pacha,Ibiza,Spain,38.9185,1.4434,Progressive House,60069,298
+2023-05-16,Martin Garrix,Festival,Festival featuring Martin Garrix,Hart Plaza,Detroit,USA,42.3296,-83.0458,EDM,4042,224
+2024-04-28,Martin Garrix,Concert,Concert featuring Martin Garrix,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,EDM,68737,170
+2022-11-01,Flume,Club Gig,Club Gig featuring Flume,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Future Bass,3706,382
+2024-05-15,Nina Kraviz,Concert,Concert featuring Nina Kraviz,Berghain,Berlin,Germany,52.5111,13.4416,Techno,30098,249
+2024-12-17,Bicep,Festival,Festival featuring Bicep,Hart Plaza,Detroit,USA,42.3296,-83.0458,Electronic,5810,71
+2024-01-28,Adam Beyer,Club Gig,Club Gig featuring Adam Beyer,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Techno,1961,364
+2022-09-23,Bonobo,Concert,Concert featuring Bonobo,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Electronica,42401,71
+2024-05-18,The Martinez Brothers,Festival,Festival featuring The Martinez Brothers,Bayfront Park,Miami,USA,25.7801,-80.1826,House,62940,105
+2023-03-15,Bonobo,Club Gig,Club Gig featuring Bonobo,Bayfront Park,Miami,USA,25.7801,-80.1826,Electronica,42660,60
+2024-08-20,Nina Kraviz,Concert,Concert featuring Nina Kraviz,Output,New York,USA,40.7213,-73.9577,Techno,9478,135
+2022-06-26,CamelPhat,Festival,Festival featuring CamelPhat,DC10,Ibiza,Spain,38.8816,1.3921,Tech House,66996,188
+2022-12-19,Bicep,Festival,Festival featuring Bicep,Hart Plaza,Detroit,USA,42.3296,-83.0458,Electronic,12640,227
+2024-07-20,CamelPhat,Festival,Festival featuring CamelPhat,Empire Polo Club,Indio,USA,33.6803,-116.2377,Tech House,55340,57
+2024-10-08,Netsky,Concert,Concert featuring Netsky,DC10,Ibiza,Spain,38.8816,1.3921,Drum & Bass,35278,246
+2023-04-27,Black Coffee,Festival,Festival featuring Black Coffee,Bayfront Park,Miami,USA,25.7801,-80.1826,Afro House,67565,384
+2024-08-31,Charlotte de Witte,Festival,Festival featuring Charlotte de Witte,Bayfront Park,Miami,USA,25.7801,-80.1826,Techno,21426,322
+2022-04-30,Boris Brejcha,Festival,Festival featuring Boris Brejcha,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Minimal Techno,15401,207
+2022-06-10,Skrillex,Concert,Concert featuring Skrillex,Hart Plaza,Detroit,USA,42.3296,-83.0458,Dubstep,26503,260
+2024-10-17,Marco Carola,Concert,Concert featuring Marco Carola,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Techno,56899,150
+2023-02-03,Sasha & John Digweed,Concert,Concert featuring Sasha & John Digweed,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Progressive House,54480,329
+2023-08-18,Jamie Jones,Club Gig,Club Gig featuring Jamie Jones,United Center,Chicago,USA,41.8807,-87.6742,Tech House,12443,317
+2022-01-30,Marco Carola,Club Gig,Club Gig featuring Marco Carola,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Techno,44788,131
+2024-01-25,Peggy Gou,Club Gig,Club Gig featuring Peggy Gou,Boom,Boom,Belgium,51.0926,4.3717,House,17073,52
+2024-08-01,The Martinez Brothers,Club Gig,Club Gig featuring The Martinez Brothers,Pacha,Ibiza,Spain,38.9185,1.4434,House,58730,261
+2022-11-30,Deadmau5,Festival,Festival featuring Deadmau5,Printworks,London,UK,51.4985,-0.0429,Progressive House,21966,75
+2024-05-28,Solomun,Festival,Festival featuring Solomun,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,Deep House,63611,369
+2022-10-20,Marco Carola,Club Gig,Club Gig featuring Marco Carola,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Techno,39656,56
+2023-01-05,Bicep,Club Gig,Club Gig featuring Bicep,Boom,Boom,Belgium,51.0926,4.3717,Electronic,59220,264
+2023-12-07,Martin Garrix,Concert,Concert featuring Martin Garrix,Wembley Arena,London,UK,51.557,-0.2797,EDM,4991,101
+2022-02-26,Deadmau5,Festival,Festival featuring Deadmau5,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Progressive House,52316,333
+2022-04-30,Carl Cox,Club Gig,Club Gig featuring Carl Cox,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Techno,29352,226
+2024-01-04,CamelPhat,Concert,Concert featuring CamelPhat,Wembley Arena,London,UK,51.557,-0.2797,Tech House,31585,138
+2023-07-21,Martin Garrix,Festival,Festival featuring Martin Garrix,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,EDM,6436,80
+2023-03-30,Flume,Club Gig,Club Gig featuring Flume,Hart Plaza,Detroit,USA,42.3296,-83.0458,Future Bass,2768,352
+2022-11-25,Boris Brejcha,Club Gig,Club Gig featuring Boris Brejcha,United Center,Chicago,USA,41.8807,-87.6742,Minimal Techno,13940,84
+2024-10-16,Eric Prydz,Concert,Concert featuring Eric Prydz,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Progressive House,63161,245
+2024-06-14,Skrillex,Club Gig,Club Gig featuring Skrillex,Bayfront Park,Miami,USA,25.7801,-80.1826,Dubstep,40614,312
+2023-10-12,Black Coffee,Festival,Festival featuring Black Coffee,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,Afro House,36097,68
+2023-03-22,Four Tet,Club Gig,Club Gig featuring Four Tet,Bayfront Park,Miami,USA,25.7801,-80.1826,Electronic,23971,348
+2022-10-03,Carl Cox,Concert,Concert featuring Carl Cox,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Techno,42100,186
+2023-12-20,Eric Prydz,Club Gig,Club Gig featuring Eric Prydz,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Progressive House,45924,385
+2023-02-10,Eric Prydz,Festival,Festival featuring Eric Prydz,Gashouder,Amsterdam,Netherlands,52.3867,4.8731,Progressive House,58901,117
+2022-03-07,Netsky,Club Gig,Club Gig featuring Netsky,United Center,Chicago,USA,41.8807,-87.6742,Drum & Bass,50858,279
+2024-12-25,Fisher,Concert,Concert featuring Fisher,Bayfront Park,Miami,USA,25.7801,-80.1826,House,47950,323
+2022-12-31,Dixon,Concert,Concert featuring Dixon,Petrovaradin Fortress,Novi Sad,Serbia,45.252,19.861,Deep House,61249,87
+2022-10-28,Adam Beyer,Festival,Festival featuring Adam Beyer,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Techno,2951,344
+2024-04-25,Four Tet,Festival,Festival featuring Four Tet,Bayfront Park,Miami,USA,25.7801,-80.1826,Electronic,34797,94
+2023-12-11,Skrillex,Festival,Festival featuring Skrillex,Printworks,London,UK,51.4985,-0.0429,Dubstep,68042,107
+2024-09-06,Dixon,Festival,Festival featuring Dixon,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Deep House,44115,198
+2024-02-01,Boris Brejcha,Concert,Concert featuring Boris Brejcha,Printworks,London,UK,51.4985,-0.0429,Minimal Techno,69020,280
+2023-04-28,The Martinez Brothers,Concert,Concert featuring The Martinez Brothers,United Center,Chicago,USA,41.8807,-87.6742,House,53120,109
+2022-08-17,Peggy Gou,Concert,Concert featuring Peggy Gou,Hart Plaza,Detroit,USA,42.3296,-83.0458,House,27740,177
+2023-11-01,Boris Brejcha,Club Gig,Club Gig featuring Boris Brejcha,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Minimal Techno,7218,296
+2022-01-28,Solomun,Festival,Festival featuring Solomun,DC10,Ibiza,Spain,38.8816,1.3921,Deep House,30331,84
+2022-04-10,Carl Cox,Concert,Concert featuring Carl Cox,Bayfront Park,Miami,USA,25.7801,-80.1826,Techno,40829,162
+2022-12-08,Nina Kraviz,Club Gig,Club Gig featuring Nina Kraviz,Printworks,London,UK,51.4985,-0.0429,Techno,15955,51
+2023-05-09,Armin van Buuren,Club Gig,Club Gig featuring Armin van Buuren,Wembley Arena,London,UK,51.557,-0.2797,Trance,3316,74
+2022-10-09,Boris Brejcha,Concert,Concert featuring Boris Brejcha,Las Vegas Motor Speedway,Las Vegas,USA,36.2733,-115.0119,Minimal Techno,66297,207
+2024-01-08,Deadmau5,Concert,Concert featuring Deadmau5,United Center,Chicago,USA,41.8807,-87.6742,Progressive House,44867,159
+2022-05-31,Jamie Jones,Club Gig,Club Gig featuring Jamie Jones,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Tech House,43217,59
+2022-06-03,Fisher,Festival,Festival featuring Fisher,Output,New York,USA,40.7213,-73.9577,House,7924,300
+2022-08-30,Flume,Concert,Concert featuring Flume,Empire Polo Club,Indio,USA,33.6803,-116.2377,Future Bass,65608,295
+2024-04-10,Solomun,Club Gig,Club Gig featuring Solomun,Warung Beach Club,Itajaí,Brazil,-26.9536,-48.6301,Deep House,54485,173
+2024-10-08,Eric Prydz,Concert,Concert featuring Eric Prydz,Boom,Boom,Belgium,51.0926,4.3717,Progressive House,7784,216
+2023-06-21,Solomun,Club Gig,Club Gig featuring Solomun,Berghain,Berlin,Germany,52.5111,13.4416,Deep House,14597,257
+2023-01-06,Dixon,Festival,Festival featuring Dixon,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Deep House,27099,320
+2023-02-11,CamelPhat,Concert,Concert featuring CamelPhat,Fira Montjuïc,Barcelona,Spain,41.3722,2.154,Tech House,69618,135
+2023-05-27,Armin van Buuren,Club Gig,Club Gig featuring Armin van Buuren,Wembley Arena,London,UK,51.557,-0.2797,Trance,42172,190
+2024-03-09,Deadmau5,Concert,Concert featuring Deadmau5,Hart Plaza,Detroit,USA,42.3296,-83.0458,Progressive House,44616,277
+2022-02-14,Disclosure,Club Gig,Club Gig featuring Disclosure,Hi Ibiza,Ibiza,Spain,38.8898,1.4065,House,51163,169
+2024-07-14,Paul Kalkbrenner,Concert,Concert featuring Paul Kalkbrenner,Maimarkthalle,Mannheim,Germany,49.4707,8.514,Techno,45017,374
+2022-01-29,Dixon,Club Gig,Club Gig featuring Dixon,Berghain,Berlin,Germany,52.5111,13.4416,Deep House,1653,273
+2023-09-23,Sasha & John Digweed,Festival,Festival featuring Sasha & John Digweed,Exchange LA,Los Angeles,USA,34.0486,-118.2551,Progressive House,60950,336
+2024-09-03,Disclosure,Club Gig,Club Gig featuring Disclosure,Red Rocks Amphitheatre,Morrison,USA,39.6654,-105.2057,House,37547,354
