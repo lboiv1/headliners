@@ -32,19 +32,39 @@ top_djs = filtered_df['dj_name'].value_counts().head(10)
 fig_top_djs = px.bar(top_djs, x=top_djs.index, y=top_djs.values)
 st.plotly_chart(fig_top_djs)
 
-# Event types breakdown
-st.header('Event Types')
-event_types = filtered_df['event_type'].value_counts()
-fig_event_types = px.pie(event_types,
-                         values=event_types.values,
-                         names=event_types.index)
-st.plotly_chart(fig_event_types)
 
-# Heatmap of performance locations
-st.header('Performance Locations Heatmap')
-fig_heatmap = px.density_mapbox(filtered_df,
-                                lat='latitude',
-                                lon='longitude',
-                                zoom=1)
-fig_heatmap.update_layout(mapbox_style="open-street-map")
-st.plotly_chart(fig_heatmap)
+# Artist deep dive
+st.header('Artist Deep Dive')
+
+# Get list of unique artists
+artists = sorted(filtered_df['dj_name'].unique())
+
+# Dropdown to select an artist
+selected_artist = st.selectbox('Select an artist', artists)
+
+# Filter data for the selected artist
+artist_df = filtered_df[filtered_df['dj_name'] == selected_artist]
+
+# Events by month
+st.subheader(f'Events by Month for {selected_artist}')
+artist_events_by_month = artist_df.groupby(artist_df['date'].dt.to_period('M')).size().reset_index(name='count')
+artist_events_by_month['date'] = artist_events_by_month['date'].dt.to_timestamp()
+fig_events_by_month = px.bar(artist_events_by_month, x='date', y='count')
+st.plotly_chart(fig_events_by_month)
+
+# Event types for the selected artist
+st.subheader(f'Event Types for {selected_artist}')
+artist_event_types = artist_df['event_type'].value_counts()
+fig_artist_event_types = px.pie(artist_event_types,
+                                values=artist_event_types.values,
+                                names=artist_event_types.index)
+st.plotly_chart(fig_artist_event_types)
+
+# Heatmap of performance locations for the selected artist
+st.subheader(f'Performance Locations Heatmap for {selected_artist}')
+fig_artist_heatmap = px.density_mapbox(artist_df,
+                                       lat='latitude',
+                                       lon='longitude',
+                                       zoom=1)
+fig_artist_heatmap.update_layout(mapbox_style="open-street-map")
+st.plotly_chart(fig_artist_heatmap)
