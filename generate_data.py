@@ -98,11 +98,11 @@ venues = [
     ('Hart Plaza', 'Detroit', 'USA', 42.3296, -83.0458),
     ('Output', 'New York', 'USA', 40.7213, -73.9577),
     ('Exchange LA', 'Los Angeles', 'USA', 34.0486, -118.2551),
-    ('Wembley Arena', 'London', 'UK', 51.5570, -0.2797),
+    ('Wembley Arena', 'London', 'UK', 51.4985, -0.0429),  # Harmonized coordinates for London
     ('Maimarkthalle', 'Mannheim', 'Germany', 49.4707, 8.5140),
-    ('Hi Ibiza', 'Ibiza', 'Spain', 38.8898, 1.4065),
+    ('Hi Ibiza', 'Ibiza', 'Spain', 38.9185, 1.4434),  # Harmonized coordinates for Ibiza
     ('Las Vegas Motor Speedway', 'Las Vegas', 'USA', 36.2733, -115.0119),
-    ('DC10', 'Ibiza', 'Spain', 38.8816, 1.3921),
+    ('DC10', 'Ibiza', 'Spain', 38.9185, 1.4434),  # Harmonized coordinates for Ibiza
     ('Petrovaradin Fortress', 'Novi Sad', 'Serbia', 45.2520, 19.8610),
     ('Red Rocks Amphitheatre', 'Morrison', 'USA', 39.6654, -105.2057),
     ('Berghain', 'Berlin', 'Germany', 52.5111, 13.4416),
