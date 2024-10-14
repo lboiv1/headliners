@@ -49,7 +49,7 @@ st.markdown("""
 # Load data
 @st.cache_data
 def load_data():
-  df = pd.read_csv('dj_events_200.csv')
+  df = pd.read_csv('data/dj_events_200.csv')
   df['date'] = pd.to_datetime(df['date'])
   return df
 
@@ -62,10 +62,12 @@ st.title('Headliners')
 col1, col2 = st.columns(2)
 
 with col1:
-    start_date, end_date = st.date_input(
+    start_date, end_date = st.slider(
         'Select date range',
-        [df['date'].min().date(), df['date'].max().date()],
-        label_visibility="visible"
+        min_value=df['date'].min().date(),
+        max_value=df['date'].max().date(),
+        value=(df['date'].min().date(), df['date'].max().date()),
+        format="YYYY-MM-DD"
     )
 
 with col2:
@@ -80,6 +82,11 @@ end_datetime = pd.to_datetime(end_date)
 filtered_df = df[(df['date'] >= start_datetime) & (df['date'] <= end_datetime)]
 if selected_artist != 'None':
     artist_df = filtered_df[filtered_df['dj_name'] == selected_artist]
+    
+    # Define artist_tour for animation
+    artist_tour = artist_df[['latitude', 'longitude', 'city', 'country', 'date']].copy()
+    artist_tour['event_count'] = artist_tour.groupby(['city', 'country'])['date'].transform('count')
+    artist_tour = artist_tour.sort_values('date')  # Ensure it's sorted by date
 else:
     artist_df = filtered_df
 
@@ -150,32 +157,102 @@ if selected_artist != 'None':
         )
         st.plotly_chart(fig_artist_event_types, use_container_width=True)
 
-    # Scatter plot of performance locations for the selected artist
+    # Performance Locations with Animation Option
     st.subheader('Performance Locations')
-    
+
     # Group by location and count events
     location_counts = artist_df.groupby(['latitude', 'longitude', 'city', 'country']).size().reset_index(name='count')
-    
-    # Create scatter plot
-    fig_artist_locations = px.scatter_mapbox(location_counts,
-                                             lat='latitude',
-                                             lon='longitude',
-                                             size='count',
-                                             hover_name='city',
-                                             hover_data={'country': True, 'count': True, 'latitude': False, 'longitude': False},
-                                             zoom=1,
-                                             mapbox_style="carto-darkmatter",
-                                             size_max=25,
-                                             opacity=0.7,
-                                             color_discrete_sequence=['#FF4B4B'])  # Using the accent color from your CSS
-    
-    fig_artist_locations.update_layout(
+
+    # Create scatter plot for venues
+    fig_performance_locations = px.scatter_mapbox(location_counts,
+                                                   lat='latitude',
+                                                   lon='longitude',
+                                                   size='count',
+                                                   hover_name='city',
+                                                   hover_data={'country': True, 'count': True, 'latitude': False, 'longitude': False},
+                                                   zoom=1,
+                                                   mapbox_style="carto-darkmatter",
+                                                   size_max=25,
+                                                   opacity=0.7,
+                                                   color_discrete_sequence=['#FF4B4B'])
+
+    # Set up the layout for the static view
+    fig_performance_locations.update_layout(
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
         font_color='#fafafa',
         height=600
     )
-    st.plotly_chart(fig_artist_locations, use_container_width=True)
+
+    # Display the static chart
+    chart_placeholder = st.empty()  # Create a placeholder for the chart
+    chart_placeholder.plotly_chart(fig_performance_locations, use_container_width=True)
+
+    # Button to trigger animation
+    if st.button('Show Animation'):
+        # Create frames for animation
+        frames = []
+        for k in range(1, len(artist_tour) + 1):
+            current_tour = artist_tour.iloc[:k]  # Get the first k rows for the current frame
+            event_counts = current_tour['city'].value_counts()
+
+            frame = go.Frame(
+                data=[go.Scattermapbox(
+                    lat=current_tour['latitude'],
+                    lon=current_tour['longitude'],
+                    mode='markers+lines',
+                    marker=dict(
+                        size=current_tour['event_count'] * 3,  # Scale size for visibility
+                        color='red',
+                        opacity=0.7,  # Set opacity for better visibility
+                    ),
+                    text=current_tour['city'] + ', ' + current_tour['country'] + '<br>' + current_tour['date'].dt.strftime('%Y-%m-%d'),
+                    hoverinfo='text',
+                    name='Tour Route',
+                )],
+                traces=[0],
+                name=f'frame{k}'
+            )
+            frames.append(frame)
+
+        fig_performance_locations.frames = frames
+
+        # Automatically start the animation
+        fig_performance_locations.update_layout(
+            updatemenus=[dict(
+                type='buttons',
+                showactive=False,
+                buttons=[dict(
+                    label='Play',
+                    method='animate',
+                    args=[None, dict(frame=dict(duration=500, redraw=True), mode='immediate')]
+                )]
+            )]
+        )
+
+        # Add slider for animation
+        fig_performance_locations.update_layout(
+            sliders=[dict(
+                steps=[
+                    dict(
+                        method='animate',
+                        args=[[f'frame{k}'], dict(mode='immediate', frame=dict(duration=500, redraw=True), transition=dict(duration=200))],
+                        label=f'{k+1}'
+                    ) for k in range(len(artist_tour))
+                ],
+                transition=dict(duration=200),
+                x=0,
+                y=0,
+                currentvalue=dict(font=dict(size=12), prefix='Event: ', visible=True, xanchor='right'),
+                len=1.0
+            )]
+        )
+
+        # Update the existing chart in the placeholder with the animation
+        chart_placeholder.plotly_chart(fig_performance_locations, use_container_width=True)
+
+        # Simulate the play button click by updating the chart again
+        chart_placeholder.plotly_chart(fig_performance_locations, use_container_width=True, config={'displayModeBar': False})
 
     # Display some key stats
     total_events = len(artist_df)
@@ -203,101 +280,6 @@ if selected_artist != 'None':
     event_list = artist_df[['date', 'city', 'country', 'event_type']].sort_values('date',ascending=False)
     styled_event_list = event_list.style.apply(event_row_style, axis=1)
     st.dataframe(styled_event_list, use_container_width=True)
-
-    # Animated tour map
-    st.subheader('Tour Route Animation')
-    
-    # Sort events chronologically
-    artist_tour = artist_df.sort_values('date')
-    
-    # Create event_count column
-    artist_tour['event_count'] = artist_tour.groupby('city')['city'].transform('count')
-    
-    # Create figure
-    fig = go.Figure()
-
-    # Add animated scatter plot
-    fig.add_trace(go.Scattermapbox(
-        lat=artist_tour['latitude'],
-        lon=artist_tour['longitude'],
-        mode='markers+lines',
-        marker=dict(size=10, color='red', sizemode='area', sizeref=2.*max(artist_tour['event_count'])/(40.**2), sizemin=4),
-        text=artist_tour['city'] + ', ' + artist_tour['country'] + '<br>' + artist_tour['date'].dt.strftime('%Y-%m-%d') + '<br>Visits: ' + artist_tour['event_count'].astype(str),  # Added visit count
-        hoverinfo='text',
-        name='Tour Route',
-    ))
-
-    # Set up the layout
-    fig.update_layout(
-        mapbox=dict(
-            style="carto-darkmatter",
-            zoom=1,
-        ),
-        showlegend=False,
-        height=600,
-        updatemenus=[dict(
-            type='buttons',
-            showactive=False,
-            buttons=[dict(
-                label='Play',
-                method='animate',
-                args=[None, dict(frame=dict(duration=100, redraw=True), fromcurrent=True, mode='immediate')]
-            )]
-        )],
-        plot_bgcolor='rgba(0,0,0,0)',
-        paper_bgcolor='rgba(0,0,0,0)',
-        font_color='#fafafa',
-    )
-
-    # Create frames for animation
-    frames = []
-    for k in range(1, len(artist_tour) + 1):
-        event_counts = artist_tour['city'][:k].value_counts()
-        current_tour = artist_tour[:k]
-        current_tour['event_count'] = current_tour['city'].map(event_counts)
-        
-        frame = go.Frame(
-            data=[go.Scattermapbox(
-                lat=current_tour['latitude'],
-                lon=current_tour['longitude'],
-                mode='markers+lines',
-                marker=dict(
-                    size=current_tour['event_count'],
-                    color='red',
-                    sizemode='area',
-                    sizeref=2.*max(artist_tour['event_count'])/(40.**2),
-                    sizemin=4
-                ),
-                text=current_tour['city'] + ', ' + current_tour['country'] + '<br>' + current_tour['date'].dt.strftime('%Y-%m-%d'),
-                hoverinfo='text',
-                name='Tour Route',
-            )],
-            traces=[0],
-            name=f'frame{k}'
-        )
-        frames.append(frame)
-
-    fig.frames = frames
-
-    # Add slider
-    fig.update_layout(
-        sliders=[dict(
-            steps=[
-                dict(
-                    method='animate',
-                    args=[[f'frame{k}'], dict(mode='immediate', frame=dict(duration=100, redraw=True), transition=dict(duration=50))],
-                    label=f'{k+1}'
-                ) for k in range(len(artist_tour))
-            ],
-            transition=dict(duration=50),
-            x=0,
-            y=0,
-            currentvalue=dict(font=dict(size=12), prefix='Event: ', visible=True, xanchor='right'),
-            len=1.0
-        )]
-    )
-
-    st.plotly_chart(fig, use_container_width=True)
 
 else:
     st.info("Select an artist to see detailed information.")
